@@ -14,13 +14,13 @@ class MealItem extends StatelessWidget {
   final Function  removeItem;
 
   const MealItem({
-    required this.imageUrl,
-    required this.title,
-    required this.id,
-    required this.duration,
-    required this.complexity,
-    required this.affordability,
-    required this.removeItem
+     this.imageUrl,
+     this.title,
+     this.id,
+     this.duration,
+     this.complexity,
+     this.affordability,
+     this.removeItem
   });
 
   String get complexityText {
